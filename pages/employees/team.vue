@@ -97,9 +97,9 @@
             </div>
           </div>
           <div class="flex justify-center">
-            <a href="employees.html" id="continueBtn" class="btn btn-primary">
+            <NuxtLink to="/employees" id="continueBtn" class="btn btn-primary">
               Continue
-            </a>
+            </NuxtLink>
           </div>
         </form>
       </section>

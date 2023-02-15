@@ -30,12 +30,12 @@
           <label for="" class="text-grey">Age</label>
           <input type="number" class="input-field" />
         </div>
-        <a
-          href="employee_create-2.html"
+        <NuxtLink
+          to="/employees/finish"
           class="w-full btn btn-primary mt-[14px]"
         >
           Continue
-        </a>
+        </NuxtLink>
       </form>
     </section>
   </div>

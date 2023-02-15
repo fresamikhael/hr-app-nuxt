@@ -6,7 +6,7 @@
     <div class="px-6 py-[50px] gap-y-[50px] flex flex-col">
       <div class="flex items-center justify-between">
         <a href="#" class="flex justify-center">
-          <img src="/assets/svgs/logo-type.svg" alt="" />
+          <img src="/assets/svgs/logoooo.svg" alt="" />
         </a>
         <a href="#" id="toggleCloseSidebar" class="lg:hidden">
           <svg
@@ -27,26 +27,26 @@
       </div>
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Daily Use</div>
-        <a href="index.html" class="nav-link active">
+        <NuxtLink to="/" class="nav-link active">
           <img src="/assets/svgs/ic-grid.svg" alt="" />
           Overview
-        </a>
-        <a href="employees.html" class="nav-link">
+        </NuxtLink>
+        <NuxtLink to="/employees" class="nav-link">
           <img src="/assets/svgs/ic-users.svg" alt="" />
           Employees
-        </a>
-        <a href="my_teams.html" class="nav-link">
+        </NuxtLink>
+        <NuxtLink to="/teams" class="nav-link">
           <img src="/assets/svgs/ic-briefcase.svg" alt="" />
           My Teams
-        </a>
-        <a href="roles.html" class="nav-link">
+        </NuxtLink>
+        <NuxtLink to="/roles" class="nav-link">
           <img src="/assets/svgs/ic-flag.svg" alt="" />
           Roles
-        </a>
+        </NuxtLink>
       </div>
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Others</div>
-        <a href="#" class="nav-link">
+        <!-- <a href="#" class="nav-link">
           <img src="/assets/svgs/ic-box.svg" alt="" />
           Insurances
         </a>
@@ -61,11 +61,11 @@
         <a href="#" class="nav-link">
           <img src="/assets/svgs/ic-settings.svg" alt="" />
           Settings
-        </a>
-        <a href="#" class="nav-link">
+        </a> -->
+        <NuxtLink to="/login" class="nav-link">
           <img src="/assets/svgs/ic-signout.svg" alt="" />
           Logout
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
